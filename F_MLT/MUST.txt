@@ -1,0 +1,47 @@
+====================================================
+  FULL SETUP GUIDE - HOW TO RUN ON A NEW COMPUTER
+====================================================
+
+STEP 1: INSTALL PYTHON
+-----------------------
+1. Go to https://www.python.org/downloads/
+2. Click "Download Python" (latest version)
+3. Run the installer
+4. !! IMPORTANT !! Check the box "Add Python to PATH" before clicking Install
+
+STEP 2: INSTALL JUPYTER
+------------------------
+Open Command Prompt and run:
+
+    pip install jupyter
+
+STEP 3: INSTALL ALL ML PACKAGES
+---------------------------------
+Run this command in Command Prompt:
+
+    pip install -r requirements.txt
+
+STEP 4: LAUNCH JUPYTER NOTEBOOK
+---------------------------------
+Run this command in Command Prompt:
+
+    jupyter notebook
+
+This will open Jupyter in your browser automatically.
+
+====================================================
+  ALL COMMANDS (copy-paste one by one)
+====================================================
+
+    pip install jupyter
+    pip install -r "C:\Users\Akilan\OneDrive\Documents\MLT\requirements.txt"
+    jupyter notebook
+
+====================================================
+  TIPS
+====================================================
+- If "pip" does not work, try "pip3" instead
+- If Python is not recognized, restart your computer after installing Python
+- Make sure you checked "Add Python to PATH" during Python installation
+
+====================================================
